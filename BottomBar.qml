@@ -1,6 +1,6 @@
-import QtQuick
-import QtQuick.Controls
-import QtMultimedia
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtMultimedia 2.15
 
 Pane
 {
