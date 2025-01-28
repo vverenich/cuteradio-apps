@@ -6,6 +6,6 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
-    engine.load(QUrl(u"qrc:/main.qml"_qs));
+    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     return app.exec();
 }
