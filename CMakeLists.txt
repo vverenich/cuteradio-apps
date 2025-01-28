@@ -1,7 +1,7 @@
 # Copyright (C) 2018 Burkhard Stubert
 cmake_minimum_required(VERSION 3.5)
 
-project(cuteradio)
+project(app)
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
