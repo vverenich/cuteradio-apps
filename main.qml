@@ -75,6 +75,6 @@ Window {
         id: g_player
 //        Component.onCompleted: g_player.play()
         source: "http://mp3channels.webradio.antenne.de/antenne"
-        onErrorOccurred: (_, errorString) => console.log("Error = ", errorString)
+        //onErrorOccurred: (_, errorString) => console.log("Error = ", errorString)
     }
 }
